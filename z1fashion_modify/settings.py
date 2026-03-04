@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-!(1-%f0=wq)4zog1(-lzjc$-o-pcnkv$srr!g+l@_mwh(vt=u3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 CORS_ALLOWED_ORIGINS = [
     "https://z1-fashion-frontend.vercel.app",
